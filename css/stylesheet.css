@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 18px;
+}
+
+#personal-information {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#Objectives {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #3282b8;
+}
+
+#Education {
+  padding: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#Hobbies-interest {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#header {
+  padding: 0;
+  margin: 0 auto;
+  background-color: #bbe1fa;
+  width: 100%;
+}
+
+#Section {
+  padding: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+#Skills {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #3282b8;
+}
+#References {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #3282b8;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+  font-size: 3.5rem;
+  color: #bbe1fa;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+  font-size: 2.5rem;
+  color: #1b262c;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.row {
+  max-width: 1280px;
+  display: block;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.row-fluid {
+  max-width: 100%;
+  display: block;
+  padding: 0 auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.row-fluid-2 {
+  max-width: 100%;
+  display: block;
+  padding-bottom: 70px;
+  margin: 0 auto;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  padding: 15px;
+}
+
+.col-2 {
+  float: left;
+  width: 20%;
+  margin: 0;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.col-3 {
+  float: left;
+  width: 80%;
+  margin: 0;
+  padding: 15px;
+}
+
+.col-4 {
+  float: left;
+  width: 33.33%;
+  margin: 0;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fas {
+  margin-left: 15px;
+  padding: 20px;
+  color: #0f4c75;
+  font-size: 52px;
+}
+
+.fab {
+  margin-left: 15px;
+  padding: 20px;
+  color: #0f4c75;
+  font-size: 52px;
+}
+
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.logo {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+  font-size: 2rem;
+  color: #1b262c;
+  margin: 0;
+  padding: 0;
+}
+
+.li {
+  float: left;
+  margin: 0;
+  text-align: right;
+}
+
+.li .a {
+  display: block;
+  padding: 8px;
+  margin: 0;
+  text-align: right;
+}
+
+.a:link, .a:visited {
+  color: #1b262c;
+  font-weight: 700;
+  padding: 14px 25px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.a:hover, .a:active {
+  color: #0f4c75;
+}
+
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #1b262c;
+  font-size: 16px;
+  background: #bbe1fa;
+  padding: 10px 70px 10px 70px;
+  border: solid #bbe1fa 2px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background: #1b262c;
+  color: #ffff;
+  text-decoration: none;
+}
